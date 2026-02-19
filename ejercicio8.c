@@ -1,7 +1,7 @@
 /* * Enunciado: Crear una función que reciba tres variables booleanas (A, B, C) y 
  * retorne el resultado de la siguiente expresión lógica: F = (A * B) + !C. 
  * El resultado debe mostrarse como una pequeña tabla de verdad en la consola.
- * Integrantes: Angel Higinio, Luis Donado, Yaribeth Rodriguez 
+ * Integrantes: Angel Higinio, Luis Donado, Yaribeth Rodriguez, Elias Sanches
  * Compilador usado: OnlineGDB / GDB online Debugger
  */
 
@@ -28,4 +28,5 @@ int main() {
     }
 
     return 0;
+
 }
