@@ -5,20 +5,20 @@
  * Compilador usado: OnlineGDB 
  */
 
-
-int printf(const char *format, ...);
+#include <stdio.h>
 
 int main() {
-    // Escribir el numero deseado despues del =
-    int VALOR = 1189165; 
+    int VALOR;
 
-    // Verificamos el bit menos significativo con AND
-    if ((VALOR & 1) == 0) {
-        printf("El numero %d es Par\n", VALOR);
+    printf("Ingrese un numero entero: ");
+    scanf("%d", &VALOR);
+
+    // Verificar el bit menos significativo usando AND bit a bit
+    if (VALOR & 1) {
+        printf("El numero es IMPAR.\n");
     } else {
-        printf("El numero %d es Impar\n", VALOR);
+        printf("El numero es PAR.\n");
     }
 
     return 0;
-
 }
