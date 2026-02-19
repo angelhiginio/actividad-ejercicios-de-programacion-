@@ -2,7 +2,7 @@
  * Leer una variable de 8 bits llamada REGISTRO_ESTADO. El programa debe extraer y 
  * mostrar por separado el valor de los 4 bits menos significativos (nibble inferior) 
  * y el estado (0 o 1) del bit número 5. Usar exclusivamente operadores de bits (&, >>).
- * Integrantes: Angel Higinio, Luis Donado, Yaribeth Rodriguez 
+ * Integrantes: Angel Higinio, Luis Donado, Yaribeth Rodriguez, Elias Sanchez
  * Compilador usado: OnlineGDB / GDB online Debugger
  */
 
@@ -20,4 +20,5 @@ int main() {
     printf("Estado del bit 5: %d\n", bit_5);
 
     return 0;
+
 }
