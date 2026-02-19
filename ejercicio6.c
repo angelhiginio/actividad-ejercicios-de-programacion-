@@ -1,7 +1,7 @@
 /* * Enunciado: Leer un número entero en la variable VALOR. Utilizar operadores de bits 
  * (bitwise) para determinar si el número es par o impar (verificando el bit menos 
  * significativo) y mostrar el resultado. No está permitido usar el operador de módulo (%).
- * Integrantes: Angel Higinio, Luis Donado, Yaribeth Rodriguez 
+ * Integrantes: Angel Higinio, Luis Donado, Yaribeth Rodriguez, Elias Sanchez 
  * Compilador usado: OnlineGDB 
  */
 
@@ -20,4 +20,5 @@ int main() {
     }
 
     return 0;
+
 }
